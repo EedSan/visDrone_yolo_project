@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+#data
+VisDrone_Dataset/
+
+#ml
+runs/
+*.pt
+
+# Claude context files
+.claude/
+
+# EDA outputs
+EDA_results/
+
+# Model checkpoints
+*.pt
